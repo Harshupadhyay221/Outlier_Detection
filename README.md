@@ -2,7 +2,7 @@
 Use for outlier detection and removal using boxplot
 
 # Calculate the 25th and 75th percentiles
-## Duration is name of a column it can be vary 
+## Duration is name Of a column it can be vary 
 percentile25 = df['Duration'].quantile(0.25) 
 print("25th Percentile:", percentile25)
 
